@@ -1,0 +1,26 @@
+.body{
+background-color: #ffcc00;
+}
+.navbar-header{
+    margin: 0;
+    height: auto;
+    border-radius: 0;
+    background-color: #ff3399;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border: none;
+  }
+
+  .navbar-nav li{
+  position:relative;
+  float:left;
+  border-right:1px solid #c0c0c0;
+  }
+  .navbar-nav li  ul{
+  position:absolute;
+  top:25px; 
+  left:0;
+  background-color:#fff;
+  display:none;
+  }
